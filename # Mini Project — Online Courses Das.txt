@@ -1,0 +1,60 @@
+# Mini Project — Online Courses Dashboard
+
+**Tool:** Microsoft Power BI  
+**Dataset:** `online_courses.csv`
+
+## Part 1: Data Cleaning (Power Query)
+
+Before creating the dashboard, clean and prepare the dataset by completing the following tasks:
+
+1. Check the dataset for missing and null values and handle them appropriately.
+2. Remove duplicate records.
+3. Clean text columns by removing extra spaces and unnecessary characters.
+4. Fix incorrect or inconsistent data formats.
+5. Convert Course Rating into a numeric data type.
+6. Convert Course Reviews into numeric values, handling values such as `18K` correctly.
+7. Split Course Detail into separate columns for Course Level, Course Type, and Course Duration.
+8. Clean the Skill Gain column by removing unnecessary text.
+9. Rename columns if needed to make them clear and understandable.
+10. Verify the final dataset and make sure the columns have the correct data types.
+
+## Part 2: Dashboard Development
+
+Create one small, interactive dashboard containing the following:
+
+### KPI Cards
+- Total Courses
+- Total Course Providers
+- Average Course Rating
+- Total Reviews
+
+### Charts
+- Top 10 Course Providers by Number of Courses.
+- Number of Courses by Course Type.
+- Courses by Course Level.
+- Top 5 Highest-Rated Courses.
+
+### Filters
+Add slicers for:
+- Course Level
+- Course Type
+- Course Duration
+
+## Part 3: Dashboard Design
+
+Make your dashboard look professional and easy to read.
+
+- Choose a consistent color palette.
+- Format numbers clearly using suitable display units.
+- Use rounded corners for cards and visual containers.
+- Add subtle shadows to cards and charts.
+- Use suitable background colors and font sizes.
+- Align visuals properly and maintain consistent spacing.
+- Highlight KPI Cards using suitable colors.
+- Keep the dashboard clean, simple, and organized.
+
+## Submission Requirements
+
+Submit your Power BI `.pbix` file containing the cleaned dataset and the completed dashboard.
+
+**Important:** Complete the Data Cleaning tasks before starting the dashboard. Do not skip the cleaning stage.
